@@ -50,14 +50,10 @@ div header div input {
 }
 
 #new-post-btn {
-	right: 85rem;
-}
-
-#update-btn {
 	right: 65rem;
 }
 
-#delete-btn{
+#update-btn {
 	right: 45rem;
 }
 
