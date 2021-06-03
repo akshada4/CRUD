@@ -1,0 +1,100 @@
+html {
+	font-size: 62.5%
+}
+
+header {
+	position: relative;
+	height: 5rem;
+}
+
+div header div input {
+	width: 25rem;
+	height: 4rem;
+	border: none;
+	border-bottom-left-radius: 1rem;
+	border-top-left-radius: 1rem;
+	padding-left: 1rem;
+	padding-bottom: 0;
+}
+
+.search {
+	display: inline-block;
+	position: absolute;
+	border: 1px solid gray;
+	border-radius: 1rem;
+	right: 0rem;
+}
+
+.header-buttons {
+	display: inline-block;
+	position: absolute;
+	border: 1px solid grey;
+	border-radius: 1rem;
+}
+
+.btn {
+	width: 16rem;
+	height: 4rem;
+	cursor: pointer;
+	font-size: 1.4rem;
+	border: none;
+}
+
+#search-post {
+	border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+#add-post, #delete, #update {
+	border-radius: 1rem;
+}
+
+#new-post-btn {
+	right: 85rem;
+}
+
+#update-btn {
+	right: 65rem;
+}
+
+#delete-btn{
+	right: 45rem;
+}
+
+.post {
+	height: 18rem;
+	width: 60rem;
+	padding: 0.5rem 1rem;
+	box-shadow: 0.1rem 0.1rem 1rem gray;
+	margin: 2rem 2rem;
+}
+
+.post h4 {
+	font-size: 2rem;
+	margin-bottom: 0;
+}
+
+.post p {
+	font-size: 1.5rem;
+	margin-top: 1rem;
+}
+
+.post p::before {
+	content: "";
+	display: block;
+	border-top: 1px solid black;
+	width: 55rem;
+	height: 2rem;
+}
+
+#pagination-buttons {
+	width: 60rem;
+	margin-left: 2rem;
+}
+
+.pagination-btn {
+	margin-right: 1rem;
+	text-align: center;
+	width: 3rem;
+	height: 3rem;	
+}
