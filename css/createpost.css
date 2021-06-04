@@ -1,5 +1,5 @@
 html {
-	font-size: 62.5%;
+	font-size: 10px;
 }
 
 body {
@@ -40,19 +40,29 @@ textarea {
 	resize: none;
 }
 
+.create-post form div {
+	position: relative;
+}
+
+.create-post form div:nth-child(2){
+	height: 20rem;
+}
+
 #title {
+	position: absolute;
+	right: 0;
 	width: 35rem;
 	height: 4rem;
-	margin-left: 6rem;
 }
 
 #body {
+	position: absolute;
+	right: 0;
 	width: 35rem;
 	height: 20rem;
-	margin-left: 2.5rem;
-	outline: none;
 }
 
 .create-post form div:nth-child(3) {
-	text-align: right;
+    text-align: right;
 }
+
